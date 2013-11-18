@@ -45,7 +45,9 @@ TARGET_OTA_ASSERT_DEVICE := mako,geeb,gee_a,e970,e971,gee,geebus
 #TARGET_KERNEL_CONFIG := geeb_f_defconfig
 #TARGET_KERNEL_SOURCE := kernel/lge/kernel-msm
 #TARGET_KERNEL_CONFIG := geeb_f_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/g3tsum_kernel_msm
+#TARGET_KERNEL_SOURCE := kernel/lge/g3tsum_kernel_msm
+#TARGET_KERNEL_CONFIG := geeb_defconfig
+TARGET_KERNEL_SOURCE := kernel/lge/houst0nn_kernel_msm
 TARGET_KERNEL_CONFIG := geeb_defconfig
 
 BOARD_USES_ALSA_AUDIO:= true
