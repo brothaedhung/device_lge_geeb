@@ -289,9 +289,6 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxQcelp13Enc
 
-# QRNGD
-PRODUCT_PACKAGES += qrngd
-	
 # Enable USB-OTG
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.usb.host=1c
